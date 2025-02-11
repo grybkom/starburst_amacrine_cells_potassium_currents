@@ -1,1 +1,1 @@
-# AmacrinePotassiumCurrents
+# AmacrineCellPotassiumCurrents
