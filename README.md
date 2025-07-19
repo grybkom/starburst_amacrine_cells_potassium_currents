@@ -12,6 +12,7 @@ This project focused on studying the potassium channels found in SACs using the 
 ## Language
 - Python
   - [pandas](https://pandas.pydata.org/)
+  - [h5py](https://pypi.org/project/h5py/)
   - [SciPy](https://scipy.org/)
   - [Seaborn](https://seaborn.pydata.org/)
   - [Matplotlib](https://matplotlib.org/)
