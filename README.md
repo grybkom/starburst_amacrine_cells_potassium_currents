@@ -15,3 +15,10 @@ This project focused on studying the potassium channels found in SACs using the 
   - [SciPy](https://scipy.org/)
   - [Seaborn](https://seaborn.pydata.org/)
   - [Matplotlib](https://matplotlib.org/)
+
+## Data 
+Time-series electrical recordings of potassium currents were collected using whole-cell electrophysiology and saved in HDF5 format. Each HDF5 file contains multiple sweeps, with each sweep representing the cell’s response at a specific holding voltage.
+
+Recordings were sampled at 10 kHz (10,000 samples per second). The measured current values are in picoamperes (pA), and the applied voltages are in millivolts (mV).
+
+To prepare the data for analysis, each sweep must be zero-baseline normalized to remove the initial offset and ensure consistency across recordings.
