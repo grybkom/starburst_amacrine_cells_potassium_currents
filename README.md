@@ -8,3 +8,10 @@ Neurons generate and transmit electrical signals through the controlled movement
 This project focused on studying the potassium channels found in SACs using the whole-cell electrophysiology technique. Experiments were designed to specifically isolate, record, and manipulate potassium currents, with the goal of identifying and characterizing the types of potassium channels involved in direction selectivity.
 
 ![amacrine1](https://github.com/user-attachments/assets/112e4e5f-688b-4adb-a3ca-611b574c1806)
+
+## Language
+- Python
+  - [pandas](https://pandas.pydata.org/)
+  - [SciPy](https://scipy.org/)
+  - [Seaborn](https://seaborn.pydata.org/)
+  - [Matplotlib](https://matplotlib.org/)
