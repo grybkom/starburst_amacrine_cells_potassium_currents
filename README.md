@@ -47,6 +47,7 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 
 ## Results
 <img width="669" height="485" alt="VoltageStepSustainedCurrentGRNA" src="https://github.com/user-attachments/assets/2c545dcc-0c7f-4064-b6e3-ec6603573c71" />
+
 *Figure: Example of an experimental condition after applying Class SustainedPotassiumCurrentStepAnalysis.*
 
 <img width="669" height="485" alt="VoltageStepTransientCurrentGRNA" src="https://github.com/user-attachments/assets/299174f1-4503-475f-83a0-be8b3d3282f8" />
