@@ -27,6 +27,13 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 ## Versions
 - PotassiumCurrentStepAnalysisClass20250312.ipynb is the most complete analysis and is to be used in Poleg-Polsky Lab's Google Colab space.
 
+- The final working version is comprised of four classes.
+  1^{st}) PotassiumCurrentStepsImport, imports the HDF5 file, normalizes the baseline, optionally subracts out the capacitive   current, and returns the data as a normalized NumPy array.
+  2nd) SustainedPotassiumCurrentStepAnalysis, analyses the sustained peak current by voltage step for multiple trials, calculates the mean and the standard error of the mean (SEM), and plots the result.
+  3rd) TransientPotassiumCurrentStepAnalysis, analyses the transient peak current by voltage step for multiple trials, calculates  the mean and the SEM, and plots the result.
+  4th) CurrentDecayStepAnalysis, measures the exponential decay time of the transient current for multiple trials, calculates the mean and the SEM, and plots the result.
+
+
 ## Experimental Conditions
 - Starburst Amacrine Cells in Chat-Cre/tdTomato mice were targeted for whole cell recording.
 - For grna experiments and expeiments with bath application of drugs internal solution consisted of, 110 mM KMeS04H, 10 mM NaCl, 5 mM HEPES, 2 mM EGTA, 10 mM CrPhos, 4 mM Mg-ATP, and 0.4 mM Na-GTP was used.
