@@ -42,4 +42,5 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 - As an added control, at the end of each experiment cells were held in current clamp and a series of depolarizing steps were applied to ensure cell did not fire action potentials.
 
 <img width="936" height="489" alt="NormalizedTrace20241113_0" src="https://github.com/user-attachments/assets/6e9ace85-7f8c-41b6-805f-afa543ce359f" />
+
 *Figure: Example of a single experiment after applying Class PotassiumCurrentStepsImport with capacitive current subtraction.*
