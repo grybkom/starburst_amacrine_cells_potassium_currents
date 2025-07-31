@@ -44,3 +44,13 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 <img width="936" height="489" alt="NormalizedTrace20241113_0" src="https://github.com/user-attachments/assets/6e9ace85-7f8c-41b6-805f-afa543ce359f" />
 
 *Figure: Example of a single experiment after applying Class PotassiumCurrentStepsImport with capacitive current subtraction.*
+
+## Results
+<img width="669" height="485" alt="VoltageStepSustainedCurrentGRNA" src="https://github.com/user-attachments/assets/2c545dcc-0c7f-4064-b6e3-ec6603573c71" />
+*Figure: Example of an experimental condition after applying Class SustainedPotassiumCurrentStepAnalysis.*
+
+<img width="669" height="485" alt="VoltageStepTransientCurrentGRNA" src="https://github.com/user-attachments/assets/299174f1-4503-475f-83a0-be8b3d3282f8" />
+*Figure: Example of an experimental condition after applying Class TransientPotassiumCurrentStepAnalysis.*
+
+<img width="669" height="485" alt="VoltageStepCurrentDecayTimeGRNA" src="https://github.com/user-attachments/assets/9de8be57-cf70-4bee-a5f8-b9b1deb16588" />
+*Figure: Example of an experimental condition after applying Class CurrentDecayStepAnalysis.*
