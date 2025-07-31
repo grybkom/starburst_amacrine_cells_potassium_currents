@@ -51,7 +51,13 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 *Figure: Example of an experimental condition after applying Class SustainedPotassiumCurrentStepAnalysis.*
 
 <img width="669" height="485" alt="VoltageStepTransientCurrentGRNA" src="https://github.com/user-attachments/assets/299174f1-4503-475f-83a0-be8b3d3282f8" />
+
 *Figure: Example of an experimental condition after applying Class TransientPotassiumCurrentStepAnalysis.*
 
 <img width="669" height="485" alt="VoltageStepCurrentDecayTimeGRNA" src="https://github.com/user-attachments/assets/9de8be57-cf70-4bee-a5f8-b9b1deb16588" />
+
 *Figure: Example of an experimental condition after applying Class CurrentDecayStepAnalysis.*
+
+## Author
+
+Michael Grybko - GitHub username: grybkom
