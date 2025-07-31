@@ -23,3 +23,13 @@ Time-series electrical recordings of potassium currents were collected using who
 Recordings were sampled at 10 kHz (10,000 samples per second). The measured current values are in picoamperes (pA), and the applied voltages are in millivolts (mV).
 
 To prepare the data for analysis, each sweep must be zero-baseline normalized to remove the initial offset and ensure consistency across recordings.
+
+## Versions
+- PotassiumCurrentStepAnalysisClass20250312.ipynb is the most complete analysis and is to be used in Poleg-Polsky Lab's Google Colab space.
+
+## Experimental Conditions
+- Starburst Amacrine Cells in Chat-Cre/tdTomato mice were targeted for whole cell recording.
+- For grna experiments and expeiments with bath application of drugs internal solution consisted of, 110 mM KMeS04H, 10 mM NaCl, 5 mM HEPES, 2 mM EGTA, 10 mM CrPhos, 4 mM Mg-ATP, and 0.4 mM Na-GTP was used.
+- Cells were held in voltage clamp at -80mV and sustained and transient currents were recorded as voltage steps of (-110, -100, -90, -80, -70, -60, -50, -40, -30, -20) were applied.
+- For experiments involving pharmacology, control currents were first recorded then drug was applied for approximately 20 minuets and the evoked currents were again recorded.
+- As an added control, at the end of each experiment cells were held in current clamp and a series of depolarizing steps were applied to ensure cell did not fire action potentials.
