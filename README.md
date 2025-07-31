@@ -28,10 +28,10 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 - PotassiumCurrentStepAnalysisClass20250312.ipynb is the most complete analysis and is to be used in Poleg-Polsky Lab's Google Colab space.
 
 - The final working version is comprised of four classes.
-  1^{st}) PotassiumCurrentStepsImport, imports the HDF5 file, normalizes the baseline, optionally subracts out the capacitive   current, and returns the data as a normalized NumPy array.
-  2nd) SustainedPotassiumCurrentStepAnalysis, analyses the sustained peak current by voltage step for multiple trials, calculates the mean and the standard error of the mean (SEM), and plots the result.
-  3rd) TransientPotassiumCurrentStepAnalysis, analyses the transient peak current by voltage step for multiple trials, calculates  the mean and the SEM, and plots the result.
-  4th) CurrentDecayStepAnalysis, measures the exponential decay time of the transient current for multiple trials, calculates the mean and the SEM, and plots the result.
+  - **PotassiumCurrentStepsImport**, imports the HDF5 file, normalizes the baseline, optionally subracts out the capacitive   current, and returns the data as a normalized NumPy array.
+  - **SustainedPotassiumCurrentStepAnalysis**, analyses the sustained peak current by voltage step for multiple trials, calculates the mean and the standard error of the mean (SEM), and plots the result.
+  - **TransientPotassiumCurrentStepAnalysis**, analyses the transient peak current by voltage step for multiple trials, calculates  the mean and the SEM, and plots the result.
+  - **CurrentDecayStepAnalysis**, measures the exponential decay time of the transient current for multiple trials, calculates the mean and the SEM, and plots the result.
 
 
 ## Experimental Conditions
