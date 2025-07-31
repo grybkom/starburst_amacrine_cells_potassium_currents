@@ -33,3 +33,5 @@ To prepare the data for analysis, each sweep must be zero-baseline normalized to
 - Cells were held in voltage clamp at -80mV and sustained and transient currents were recorded as voltage steps of (-110, -100, -90, -80, -70, -60, -50, -40, -30, -20) were applied.
 - For experiments involving pharmacology, control currents were first recorded then drug was applied for approximately 20 minuets and the evoked currents were again recorded.
 - As an added control, at the end of each experiment cells were held in current clamp and a series of depolarizing steps were applied to ensure cell did not fire action potentials.
+
+<img width="936" height="489" alt="NormalizedTrace20241113_0" src="https://github.com/user-attachments/assets/6e9ace85-7f8c-41b6-805f-afa543ce359f" />
